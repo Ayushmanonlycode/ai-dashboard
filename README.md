@@ -87,7 +87,7 @@ ai-dashboard/
 
 
 ### Avatar Creation
-![Avatar Creation](./src/Screenshot 2025-05-15 182525.png)
+![Avatar Creation](./src/create.png)
 
 ## 📝 License
 
