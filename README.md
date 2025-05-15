@@ -1,64 +1,64 @@
 # AI Avatar Dashboard
 
-A clean, responsive dashboard UI built with Next.js and Tailwind CSS for managing AI-generated avatars.
+A modern, interactive dashboard for managing AI-generated avatars built with Next.js and Tailwind CSS. Features include 3D tilt effects, dynamic lighting, search functionality, dark/light mode, and interactive animations for a seamless user experience.
 
-![AI Avatar Dashboard](https://i.imgur.com/YOUR_SCREENSHOT_HERE.jpg)
+![AI Avatar Dashboard](https://i.imgur.com/placeholder.png)
 
-## Features
+## ✨ Features
 
-- 🎨 Modern, clean UI with responsive design
-- 🌓 Dark/light mode (based on system preferences)
-- 👤 Display of avatar cards with user information
-- ✨ Interactive elements with hover and transition effects
-- 📱 Mobile-friendly layout with a floating action button
-- 🔄 Real data fetching from the Reqres API
+- **Interactive Avatar Cards**: Beautiful cards with tilt effects and dynamic lighting
+- **Smooth Animations**: Consistent animations and transitions throughout the UI
+- **Responsive Design**: Fully responsive layout that works on all device sizes
+- **Dark Mode Support**: Seamless toggle between light and dark themes
+- **Search Functionality**: Easily find avatars by name or email
+- **Create & Edit Avatars**: Modal interface for avatar management
+- **Confetti Effects**: Celebrate when creating new avatars
+- **Real-time Data**: Fetch avatars from Reqres API
 
-## Tech Stack
+## 🛠️ Technologies
 
-- [Next.js](https://nextjs.org/) - React framework
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
-- [Reqres API](https://reqres.in/) - REST API with dummy data
+- **Next.js** - React framework for building performant web applications
+- **TypeScript** - Type safety and better developer experience
+- **Tailwind CSS** - Utility-first CSS framework for rapid UI development
+- **React Hooks** - Functional component state management
+- **Modern Animation Techniques** - Using CSS animations and transitions
+- **Reqres API** - REST API with dummy data for testing
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js (v18 or later)
+- Node.js (v14 or later)
 - npm or yarn
 
 ### Installation
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/ai-avatar-dashboard.git
-   ```
+1. Clone the repository
+```bash
+git clone https://github.com/Ayushmanonlycode/ai-dashboard.git
+cd ai-dashboard
+```
 
-2. Navigate to the project directory:
-   ```
-   cd ai-avatar-dashboard
-   ```
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
 
-3. Install dependencies:
-   ```
-   npm install
-   # or
-   yarn install
-   ```
+3. Run the development server
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-4. Run the development server:
-   ```
-   npm run dev
-   # or
-   yarn dev
-   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
-
-## Project Structure
+## 📁 Project Structure
 
 ```
-ai-avatar-dashboard/
+ai-dashboard/
 ├── public/
 ├── src/
 │   ├── app/
@@ -72,25 +72,35 @@ ai-avatar-dashboard/
 │   │   └── ui/           # Reusable UI components
 │   │       ├── Button.tsx
 │   │       ├── Card.tsx
-│   │       └── Modal.tsx
+│   │       ├── Modal.tsx
+│   │       ├── Search.tsx
+│   │       └── TypeWriter.tsx
 │   └── lib/
 │       └── api.ts        # API service for fetching data
 ├── package.json
 └── README.md
 ```
 
-## Features
+## 📷 Screenshots
 
-- **Avatar Cards**: Displays user information and avatar images fetched from the API
-- **Create New Avatar**: Modal interface for adding new avatars (UI only)
-- **Responsive Design**: Adapts to different screen sizes with a mobile-friendly layout
-- **Theme Support**: Supports both light and dark modes based on system preferences
+### Light Mode
+![Light Mode](https://i.imgur.com/placeholder-light.png)
 
-## License
+### Dark Mode
+![Dark Mode](https://i.imgur.com/placeholder-dark.png)
 
-This project is open source and available under the [MIT License](LICENSE).
+### Avatar Creation
+![Avatar Creation](https://i.imgur.com/placeholder-create.png)
 
-## Acknowledgements
+## 📝 License
 
-- [Reqres API](https://reqres.in/) for providing the dummy user data
-- [Heroicons](https://heroicons.com/) for the SVG icons
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgements
+
+- [Reqres.in](https://reqres.in) for the avatar API
+- [Heroicons](https://heroicons.com/) for the beautiful icons
+
+## 👤 Author
+
+Created with ❤️ for Frontend Internship
