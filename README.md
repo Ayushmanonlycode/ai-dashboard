@@ -83,7 +83,7 @@ ai-dashboard/
 
 ## 📷 Screenshots
 
-### Light Mode
+![](./src/dashboard.png)
 
 
 ### Avatar Creation
